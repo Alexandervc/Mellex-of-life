@@ -11,7 +11,6 @@ import static org.hamcrest.Matchers.*;
 import static org.mockito.Mockito.mock;
 
 public class WhenSpawningANewGeneration {
-
     @Test
     public void whenGeneratingTheNextGenerationAnUpdatedUniverseShouldBeProduced() {
         HttpServletRequest request = mock(HttpServletRequest.class);
