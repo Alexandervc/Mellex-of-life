@@ -33,5 +33,4 @@ public class GridReader {
     private String[] splitIntoRows(final String gridContents) {
         return gridContents.split(NEW_LINE);
     }
-
 }

@@ -8,7 +8,6 @@ import static com.wakaleo.gameoflife.domain.Cell.DEAD_CELL;
  * Each new grid is generated from the previous one using the rules of the Game Of Life.
  */
 public class Universe {
-
     private static final String NEW_LINE = System.getProperty("line.separator");
 
     private Grid currentGridContent;
