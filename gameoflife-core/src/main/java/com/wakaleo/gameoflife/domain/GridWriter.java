@@ -1,7 +1,6 @@
 package com.wakaleo.gameoflife.domain;
 
 public class GridWriter {
-
     private static final String LINE_SEPARATOR = System.getProperty("line.separator");
 
     public String convertToString(final Cell[][] gridContents) {

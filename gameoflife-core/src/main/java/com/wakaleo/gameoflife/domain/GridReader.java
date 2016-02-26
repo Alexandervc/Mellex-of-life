@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GridReader {
-
     private static final String NEW_LINE = System.getProperty("line.separator");
 
     public Cell[][] loadFrom(final String gridContents) {
@@ -34,5 +33,4 @@ public class GridReader {
     private String[] splitIntoRows(final String gridContents) {
         return gridContents.split(NEW_LINE);
     }
-
 }
