@@ -15,6 +15,7 @@ public class Grid {
     private GridWriter gridWriter = new GridWriter();
     
     private String test = null;
+    private String test2 = null;
 
     public Grid(final String gridContents) {
         this.cells = makeCellArrayFrom(gridContents);
