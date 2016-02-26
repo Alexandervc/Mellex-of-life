@@ -14,7 +14,6 @@ import org.junit.Test;
 
 
 public class WhenCreatingANewGame {
-
     GameBean bean = null;
 
     @Before
@@ -43,5 +42,4 @@ public class WhenCreatingANewGame {
         assertThat(bean.getColumns(), is(5));
 
     }
-}	
-
+}
