@@ -15,6 +15,7 @@ import org.junit.Test;
 
 public class WhenCreatingANewGame {
     GameBean bean = null;
+    String test = null;
 
     @Before
     public void initializeController() {
