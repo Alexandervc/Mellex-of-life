@@ -8,6 +8,8 @@ import static org.hamcrest.Matchers.*;
 
 
 public class WhenDisplayingTheHomePage {
+    
+    String test = null;
 
     @Test
     public void theHomeUrlShouldDisplayTheHomePage() {
