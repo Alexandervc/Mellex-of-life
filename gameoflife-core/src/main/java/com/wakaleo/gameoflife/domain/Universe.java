@@ -31,6 +31,9 @@ public class Universe {
         return gridContents;
     }
 
+    /**
+     * spawnsANewGeneration method
+     */
     public void spawnsANewGeneration() {
         createNextGeneration();
     }
