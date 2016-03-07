@@ -11,9 +11,6 @@ public class Universe {
     private static final String NEW_LINE = System.getProperty("line.separator");
 
     private Grid currentGridContent;
-    
-    private String test = null;
-    private String test2 = null;
 
     public Universe() {
         currentGridContent = new Grid();
