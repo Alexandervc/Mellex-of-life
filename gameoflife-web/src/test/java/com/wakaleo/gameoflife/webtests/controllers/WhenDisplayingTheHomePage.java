@@ -8,6 +8,7 @@ import static org.hamcrest.Matchers.*;
 
 
 public class WhenDisplayingTheHomePage {
+    String test = null;
 
     @Test
     public void theHomeUrlShouldDisplayTheHomePage() {
@@ -22,5 +23,4 @@ public class WhenDisplayingTheHomePage {
         String homeView = bean.index();
         assertThat(homeView, is("home"));
     }
-}	
-
+}

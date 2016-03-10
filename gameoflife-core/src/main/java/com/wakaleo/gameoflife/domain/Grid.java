@@ -4,18 +4,13 @@ import static com.wakaleo.gameoflife.domain.Cell.DEAD_CELL;
 import static com.wakaleo.gameoflife.domain.Cell.LIVE_CELL;
 
 public class Grid {
-
     private static final int DEFAULT_ROW_COUNT = 3;
     private static final int DEFAULT_COLUMN_COUNT = 3;
 
     private Cell[][] cells;
 
-
     private GridReader gridReader = new GridReader();
     private GridWriter gridWriter = new GridWriter();
-    
-    private String test = null;
-    private String test2 = null;
 
     public Grid(final String gridContents) {
         this.cells = makeCellArrayFrom(gridContents);
