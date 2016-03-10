@@ -6,6 +6,8 @@ public enum Cell {
     private String symbol;
     
     private String test = null;
+    
+    // WIJ TESTEN DIT
 
     private Cell(final String initialSymbol) {
         this.symbol = initialSymbol;
